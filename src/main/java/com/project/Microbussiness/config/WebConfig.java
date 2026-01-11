@@ -12,7 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addMapping("/**")
                 .allowedOrigins(
                         "http://localhost:3000",
-                        "https://your-frontend-name.onrender.com" // Replace with your actual Render link
+                        "https://inventoryfrontend-3n51.onrender.com/" // Replace with your actual Render link
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
